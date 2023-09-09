@@ -25,15 +25,25 @@ ul, ol {
 .ss{
     display: flex;
 }
+
+/*detail_s_bb*/
 .ds{
     display: flex;
+    align-content: end;
 }
 .poster{
-    margin: 10px;
-    width: 20vw;
+    margin: 15px;
+    width: 22vw;
 }
-.descripcion{
-    align-content: center;
+.descripcion h2{
+    display: flex;
     justify-content: center;
-    justify-items: center;
+    text-transform: uppercase;
+    font-size: xx-large;
+    font-weight: 900;
 }
+.descripcion p{
+    display: flex;
+    justify-content: center;
+}
+

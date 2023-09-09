@@ -25,3 +25,15 @@ ul, ol {
 .ss{
     display: flex;
 }
+.ds{
+    display: flex;
+}
+.poster{
+    margin: 10px;
+    width: 20vw;
+}
+.descripcion{
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+}

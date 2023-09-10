@@ -1,7 +1,13 @@
 /*General*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto+Condensed&display=swap');
 *{
     box-sizing: border-box;
     /*border: 1px solid red;*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
 }
 a {
     text-decoration: none;
@@ -14,6 +20,45 @@ a {
 }
 ul, ol {
     list-style: none;
+}
+.playchill{
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+    height: 100vw;
+}
+.playchill.section1{
+    background-image: url(../img/back/download\ \(3\).jpg);
+}
+.playchill.section2{
+    background-image: url(../img/back/Radial\ Gradient\ Deep\ Blue\ Colour.jpg);
+}
+.playchill.section3{
+    background-image: url(../img/back/raptivitytools\ tools.jpg);
+}
+.playchill.section4{
+    background-image: url(../img/back/download\ \(3\).jpg);
+}
+.playchill.section5{
+    background-image: url(../img/back/Radial\ Gradient\ Deep\ Blue\ Colour.jpg);
+}
+.playchill.section6{
+    background-image: url(../img/back/raptivitytools\ tools.jpg);
+}
+.navbar{
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 16px 70px;
+    background-color: rgba(0,0,0,0.158);
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+    gap: 40px;
 }
 .ima{
     margin: 10px;

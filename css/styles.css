@@ -18,9 +18,27 @@
 ul, ol {
     list-style: none;
 }
+
+/*Header*/
 .logo{
     width: 250px;
 }
+.navbar{
+    position:static;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    padding: 16px 65px;
+    background-color: rgba(0,0,0,0.158);
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+    gap: 40px;
+}
+
+/*Sections principales*/
 .playchill{
     background-attachment: fixed;
     background-position: center;
@@ -46,20 +64,6 @@ ul, ol {
 .playchill.section6{
     background-image: url(../img/back/raptivitytools\ tools.jpg);
 }
-.navbar{
-    position:static;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100vw;
-    padding: 16px 65px;
-    background-color: rgba(0,0,0,0.158);
-}
-.navbar ul{
-    display: flex;
-    list-style: none;
-    gap: 40px;
-}
 .principal{
     display: flex;
     justify-content: center;
@@ -74,25 +78,13 @@ ul, ol {
     color: #11324F;
 }
 
-.navfoot{
-    position:static;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    width: 100vw;
-    padding: 16px 65px;
-    background-color: rgba(0,0,0,0.158);
-}
-.navfoot ul{
-    display: flex;
-    list-style: none;
-    gap: 40px;
-}
-
+/*Imagenes*/
 .ima{
     margin-left: 20px;
     width: 190px;
 }
+
+/*General Body*/
 .pp{
     display: flex;
 }
@@ -124,4 +116,21 @@ ul, ol {
 .dp{
     display: flex;
     align-content: end;
+}
+
+
+/*Footer*/
+.navfoot{
+    position:static;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100vw;
+    padding: 16px 65px;
+    background-color: rgba(0,0,0,0.158);
+}
+.navfoot ul{
+    display: flex;
+    list-style: none;
+    gap: 40px;
 }

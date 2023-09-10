@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto+Condensed&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@900&display=swap');
 *{
-    border: 1px solid red;
+    /*border: 1px solid red;*/
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -49,6 +49,10 @@ ul, ol {
 .playchill.sectiont{
     height: fit-content;
     background-image: url(../img/back/raptivitytools\ tools.jpg);
+}
+.playchill.sectiond{
+    height: fit-content;
+    background-image: url(../img/back/download\ \(3\).jpg);
 }
 .playchill.section1{
     background-image: url(../img/back/download\ \(3\).jpg);

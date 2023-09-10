@@ -1,12 +1,16 @@
 /*General*/
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@900&display=swap');
 *{
     /*border: 1px solid red;*/
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Alegreya Sans', sans-serif;
+    color: #11324F;
+    /*font-family: 'Open Sans', sans-serif;*/
     text-decoration: none;
+    
 }
 .navega{
     text-decoration: none;
@@ -14,12 +18,15 @@
 ul, ol {
     list-style: none;
 }
+.logo{
+    width: 250px;
+}
 .playchill{
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
     width: 100vw;
-    height: 50vw;
+    height: 40vw;
 }
 .playchill.section1{
     background-image: url(../img/back/download\ \(3\).jpg);
@@ -40,14 +47,13 @@ ul, ol {
     background-image: url(../img/back/raptivitytools\ tools.jpg);
 }
 .navbar{
-    position: fixed;
+    position:static;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 100%;
+    width: 100vw;
     padding: 16px 65px;
     background-color: rgba(0,0,0,0.158);
-    margin-bottom: 600px;
 }
 .navbar ul{
     display: flex;
@@ -65,23 +71,26 @@ ul, ol {
 .principal h2{
     position: relative;
     font-size: 5vw;
+    color: #11324F;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
+.navfoot{
+    position:static;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100vw;
+    padding: 16px 65px;
+    background-color: rgba(0,0,0,0.158);
+}
+.navfoot ul{
+    display: flex;
+    list-style: none;
+    gap: 40px;
+}
 
 .ima{
-    margin: 10px;
+    margin-left: 20px;
     width: 190px;
 }
 .pp{

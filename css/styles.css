@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto+Condensed&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@900&display=swap');
 *{
-    /*border: 1px solid red;*/
+    border: 1px solid red;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -103,7 +103,13 @@ ul, ol {
 }
 .poster{
     margin: 15px;
-    width: 22vw;
+    width: 20vw;
+}
+.descripcion{
+    padding: 50px;
+    gap: 20px;
+    justify-self: center;
+    align-items: center;
 }
 .descripcion h2{
     display: flex;
@@ -111,12 +117,14 @@ ul, ol {
     text-transform: uppercase;
     font-size: xx-large;
     font-weight: 900;
+    padding: 25px;
 }
 .descripcion p{
     display: flex;
     justify-content: center;
+    padding: 10px;
+    font-size: medium;
 }
-
 .dp{
     display: flex;
     align-content: end;

@@ -47,6 +47,11 @@ ul, ol {
     padding-top: 15px;
     padding-bottom: 15px;
 }
+.playchill.sectionfav{
+    width: 100vw;
+    height: 40vw;
+    background-image: url(../img/back/download\ \(3\).jpg);
+}
 .playchill.sectiont{
     height: fit-content;
     background-image: url(../img/back/raptivitytools\ tools.jpg);

@@ -14,9 +14,11 @@
 }
 .navega{
     text-decoration: none;
+    flex-wrap: wrap;
 }
 ul, ol {
     list-style: none;
+    
 }
 
 /*Header*/
@@ -31,6 +33,7 @@ ul, ol {
     width: 100vw;
     padding: 16px 65px;
     background-color: rgba(0,0,0,0.158);
+    
 }
 .navbar ul{
     display: flex;
@@ -46,16 +49,19 @@ ul, ol {
     height: fit-content;
     padding-top: 15px;
     padding-bottom: 15px;
+    
 }
 .playchill.sectionfav1{
     width: 100vw;
     height: 40vw;
     background-image: url(../img/back/download\ \(3\).jpg);
+    flex-wrap: wrap;
 }
 .playchill.sectionfav2{
     width: 100vw;
     height: 40vw;
     background-image: url(../img/back/Radial\ Gradient\ Deep\ Blue\ Colour.jpg);
+    flex-wrap: wrap;
 }
 .playchill.sectiont{
     height: fit-content;
@@ -219,4 +225,10 @@ h1{
     display: flex;
     list-style: none;
     gap: 40px;
+}
+
+.buscadas {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }

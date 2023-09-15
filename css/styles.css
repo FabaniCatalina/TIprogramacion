@@ -244,3 +244,11 @@ h1{
     flex-direction: row;
     flex-wrap: wrap;
 }
+
+/* responsive*/
+@media(max-width:420){
+    .navbar {
+        flex-direction: column;
+        height: 400px;
+    }
+}

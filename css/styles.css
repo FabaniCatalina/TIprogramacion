@@ -29,7 +29,7 @@ ul, ol {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 100vw;
+    width: 100%;
     padding: 16px 65px;
     background-color: rgba(0,0,0,0.158);
     
@@ -227,7 +227,7 @@ h1{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    width: 100vw;
+    width: 100%;
     padding: 16px 65px;
     background-color: rgba(0,0,0,0.158);
     flex-wrap: wrap;
@@ -246,9 +246,9 @@ h1{
 }
 
 /* responsive*/
-@media(max-width:420){
+@media(max-width:420px){
     .navbar {
         flex-direction: column;
-        height: 400px;
+        height: 350px;
     }
 }

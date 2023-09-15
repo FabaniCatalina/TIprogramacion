@@ -7,22 +7,23 @@
     <title>Play Chill</title>
 </head>
 <body>
-        <header>
-            <nav class="navbar">
-                <img src="./img/logoo.png" alt="logoo" class="logo">
-                <ul>
-                    <li><a class="navega" href="./index.html">Inicio</a></li>
-                    <li><a href="./peliculas.html">Peliculas</a></li>
-                    <li><a href="./series.html">Series</a></li>
-                    <li><a href="./generos.html">Generos</a></li>
-                    <li><a href="./favoritos.html">Favoritos</a></li>
-                </ul>
-                <div>
-                    <label for="nombre peli/serie">Que serie o pelicula queres ver?</label> <br>
-                    <input id="nombre peli/serie" type="text" name="user" value="" placeholder="Nombre de serie o pelicula">
-                </div>
-            </nav>
-        </header>
+    <header class="navbar">
+        <img src="./img/logoo.png" alt="logoo" class="logo">
+        <nav >
+            <ul>
+                <li><a class="navega" href="index.html">Inicio</a></li>
+                <li><a href="peliculas.html">Peliculas</a></li>
+                <li><a href="series.html">Series</a></li>
+                <li><a href="generos.html">Generos</a></li>
+                <li><a href="favoritos.html">Favoritos</a></li>
+            </ul>
+        </nav>
+        <form action="./search-results.html">
+            <label for="nombre peli/serie">Que serie o pelicula queres ver?</label> <br>
+            <input id="nombre peli/serie" type="text" name="user" value="" placeholder="Nombre de serie o pelicula">
+            <button>Go</button>
+        </form>
+    </header>
     <main class= "search-results"> 
         <section>
             <h2> No se ha encontrado ningun titulo!</h2>

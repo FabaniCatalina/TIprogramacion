@@ -10,7 +10,6 @@
     color: #11324F;
     /*font-family: 'Open Sans', sans-serif;*/
     text-decoration: none;
-    
 }
 .navega{
     text-decoration: none;
@@ -34,6 +33,7 @@ ul, ol {
     padding: 16px 65px;
     background-color: rgba(0,0,0,0.158);
     
+
 }
 .navbar ul{
     display: flex;
@@ -53,13 +53,13 @@ ul, ol {
 }
 .playchill.sectionfav1{
     width: 100vw;
-    height: 40vw;
+    height: fit-content;
     background-image: url(../img/back/download\ \(3\).jpg);
     flex-wrap: wrap;
 }
 .playchill.sectionfav2{
     width: 100vw;
-    height: 40vw;
+    height: fit-content;
     background-image: url(../img/back/Radial\ Gradient\ Deep\ Blue\ Colour.jpg);
     flex-wrap: wrap;
 }
@@ -110,6 +110,7 @@ ul, ol {
     font-weight: 300;
     flex-wrap: wrap;
 }
+
 .principal h2{
     position: relative;
     font-size: 5vw;
@@ -172,15 +173,18 @@ h1{
 /*General Body*/
 .pp{
     display: flex;
+    flex-wrap: wrap;
 }
 .ss{
     display: flex;
+    flex-wrap: wrap;
 }
 
 /*detail_s_bb*/
 .ds{
     display: flex;
     align-content: end;
+    flex-wrap: wrap;
 }
 .poster{
     margin: 15px;
@@ -195,6 +199,7 @@ h1{
 .favs{
     margin-left: 100px;
     align-items: center;
+    flex-wrap: wrap;
 }
 .descripcion h2{
     display: flex;
@@ -225,11 +230,13 @@ h1{
     width: 100vw;
     padding: 16px 65px;
     background-color: rgba(0,0,0,0.158);
+    flex-wrap: wrap;
 }
 .navfoot ul{
     display: flex;
     list-style: none;
     gap: 40px;
+    flex-wrap: wrap;
 }
 
 .buscadas {

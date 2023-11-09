@@ -249,6 +249,10 @@ h1{
 }
 
 /*Button*/
+button:hover {
+    background-color: #4CAF50; /* Cambia el color de fondo */
+    color: white; /* Cambia el color del texto */
+}
 @keyframes spin {
     to {transform: rotate(360deg);}
 }

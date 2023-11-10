@@ -312,3 +312,39 @@ button:active::after {
     }
 }
 
+@media(max-width:420px){
+    .playchill.section1 {
+        background-image: url(../img/back/download\ \(3\).jpg);
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+@media(max-width:420px){
+    .playchill.section2 {
+         background-image: url(../img/back/Radial\ Gradient\ Deep\ Blue\ Colour.jpg);
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+@media(max-width:420px){
+    .playchill.sectiont {
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+@media(max-width:420px){
+    .pp {
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+@media(max-width:420px){
+    .pelicula a{
+        display:flex;
+        justify-content: center;
+    }
+}

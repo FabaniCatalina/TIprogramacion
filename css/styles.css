@@ -32,6 +32,7 @@ ul, ol {
     width: 100%;
     padding: 16px 65px;
     background-color: rgba(0,0,0,0.158);
+    height: fit-content;
     
 
 }
@@ -251,12 +252,14 @@ h1{
     padding: 16px 40px;
     background-color: rgba(0,0,0,0.158);
     flex-wrap: wrap;
+    height: fit-content;
 }
 .navfoot ul{
     display: flex;
     list-style: none;
     gap: 40px;
     flex-wrap: wrap;
+    height: fit-content;
 }
 
 .buscadas {
@@ -293,6 +296,19 @@ button:active::after {
 @media(max-width:420px){
     .navbar {
         flex-direction: column;
-        height: 350px;
     }
 }
+
+@media(max-width:420px){
+    .subpag {
+        flex-direction: column;
+    }
+}
+
+@media(max-width:420px){
+    .footnom {
+        flex-direction: column;
+        height: 250px;
+    }
+}
+

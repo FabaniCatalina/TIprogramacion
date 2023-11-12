@@ -42,26 +42,7 @@ ul, ol {
     gap: 40px;
 }
 
-#myNAV {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-}
-  
-#myNAV li a {
-    border: 1px solid #ddd;
-    margin-top: -1px; /* Prevent double borders */
-    background-color: #f6f6f6;
-    padding: 12px;
-    text-decoration: none;
-    font-size: 18px;
-    color: black;
-    display: block
-}
-  
-#myNAV li a:hover:not(.header) {
-    background-color: #eee;
-}
+
 /*Sections principales*/
 .playchill{
     background-attachment: fixed;
@@ -169,7 +150,7 @@ h1{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    width: 210px;
 }
 .titu h3{
     position: relative;
@@ -195,6 +176,7 @@ h1{
 .pp{
     display: flex;
     flex-wrap: wrap;
+    width: fit-content;
 }
 .ss{
     display: flex;

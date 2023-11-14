@@ -330,3 +330,10 @@ button:active::after {
         justify-content: center;
     }
 }
+
+@media(max-width:420px){
+    .series a{
+        display:flex;
+        justify-content: center;
+    }
+}

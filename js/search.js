@@ -2,7 +2,15 @@ let API = "0cfe01fc90041a85b25d69b07b987148"
 let form = document.querySelector('form');
 let input = document.querySelector('input');
 let results = document.querySelector('#results');
+/*/
+function mostrarResultados(){
+  let busqueda = document.getElementById("busqueda").value;
+  let resultados = "Los resultados para la busqueda de: " +busqueda;
+  document.getElementById("resultados").innerHTML = resultados;
 
+}
+
+/*/
 form.addEventListener('submit', async (event) => {
   event.preventDefault();
 
@@ -33,3 +41,4 @@ form.addEventListener('submit', async (event) => {
     results.appendChild(list);
   }
 });
+

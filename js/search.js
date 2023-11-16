@@ -1,4 +1,7 @@
 let API = "0cfe01fc90041a85b25d69b07b987148"
+let queryString= location.search;
+let queryString0bj= new URLSearchParams(queryString);
+
 let form = document.querySelector('form');
 let input = document.querySelector('input');
 let results = document.querySelector('#results');

@@ -8,7 +8,7 @@ fetch(URL)
 })
 .then(function(data){
         
-    }
+    
 
 })
 .catch(function(error){

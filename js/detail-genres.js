@@ -11,17 +11,19 @@ let urlgend = "https://api.themoviedb.org/3/discover/movie?include_adult=false&i
 let urlgend2 = "`https://api.themoviedb.org/3/discover/tv?include_adult=false&include_null_first_air_dates=false&language=es&page=1&sort_by=popularity.desc&with_genres=${gene}&api_key=${APIKey}"
 
 if(type=="movie"){
-    fetch(url)
-        .then(funcion(response)){
+    fetch(urlgend)
+        .then(funcion(response){
             return response.json();
-        }
+        })
         .then(function(data){
             console.log(data);
-            document.querySelector("")
+            document.querySelector("#imputUsuario").innerHTML=nomGen
+            let laspelis = data.results
+            for (let i=0; i<=9; i++){
+                let art=document.querySelector("#pel1")
+                art.innerHTML+= <a href= "detail_s.html?id="
 
-
-
-
+            }
         })
 
 

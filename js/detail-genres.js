@@ -7,8 +7,8 @@ let type= queryStringObj.get("tipo")
 let nomGen=queryStringObj.get("nombreGen")
 console.log(gen)
 
-let urlgend = "https://api.themoviedb.org/3/discover/movie?include_adult=false&include_video=false&language=es&page=1&sort_by=popularity.desc&with_genre=${gene}&api_key=${APIkey}"
-let urlgend2 = "`https://api.themoviedb.org/3/discover/tv?include_adult=false&include_null_first_air_dates=false&language=es&page=1&sort_by=popularity.desc&with_genres=${gene}&api_key=${APIKey}"
+let urlgend = `https://api.themoviedb.org/3/discover/movie?include_adult=false&include_video=false&language=es&page=1&sort_by=popularity.desc&with_genre=${gene}&api_key=${APIkey}`
+let urlgend2 = `https://api.themoviedb.org/3/discover/tv?include_adult=false&include_null_first_air_dates=false&language=es&page=1&sort_by=popularity.desc&with_genres=${gene}&api_key=${APIKey}`
 
 if(type=="movie"){
     fetch(urlgend)

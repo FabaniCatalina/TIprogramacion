@@ -1,5 +1,4 @@
 let API = "0cfe01fc90041a85b25d69b07b987148";
-
 let queryString= location.busqueda;
 let queryString0bj= new URLSearchParams(queryString);
 let resultBusqueda = queryString0bj.get("busqueda");
@@ -25,18 +24,19 @@ fetch(pelis)
     console.log(data);
     let datas = data.results;
     let info = " ";
-    if (results.lenght === 0){
-      results.innerHTML = '<p class="no_result"> No hay resultados para su busqueda</p>';
+    if (datas.lenght === 0){
+      datas.innerHTML = '<p class="no_result"> No hay resultados para su busqueda</p>';
     }
     else{
       for (let index = 0; index < datas.length; index++) {
-        let posterPath= results[index].poster_path;
+        let posterPath = datas[index].poster_path;
+        console.log(datas[index]);
         if (posterPath != null){
           info+=`
             <div id="resultados">
               <a href="detail_p.html"?id=${datas[index].id}><img class="ima"
-                src="https://image.tmdb.org/t/p/w500/${datas[index].posterPath}"
-                alt="12 hombres en pugna"></a> 
+                src="https://image.tmdb.org/t/p/w500/${posterPath}"
+                alt="imagen de pelicula"></a> 
             </div>
           `
         }
@@ -44,14 +44,14 @@ fetch(pelis)
           info+=`
             <div id="resultados">
               <a href="detail_p.html"?id=${datas[index].id}><img class="ima"
-                src="https://image.tmdb.org/t/p/w500/${datas[index].posterPath}"
-                alt="12 hombres en pugna"></a> 
+                src="../img/descarga.png"
+                alt="imagen de pelicula"></a> 
             </div>
         `
         }
       }
     }
-    peliP.innerHTML = info
+    results.innerHTML = info
 })
 .catch(function(error){
     console.log("Error al obtener datos de peliculas: " +error)

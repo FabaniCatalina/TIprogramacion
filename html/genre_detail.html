@@ -4,204 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/f31594f02d.js" crossorigin="anonymous"></script>
-    <title>Play Chill - Genero</title>
+    <title>Play Chill - Detalle Genero</title>
     <link rel="stylesheet" href="../css/styles.css">
 </head>
 <body>
-    <header class="navbar">
-        <a href="index.html"><img src="../img/logoo.png" alt="logoo" class="logo"></a>
-        <nav>
-            <ul class="subpag">
-                <li><a class="navega" href="index.html">Inicio</a></li>
-                <li><a href="peliculas.html">Peliculas</a></li>
-                <li><a href="series.html">Series</a></li>
-                <li><a href="generos.html">Generos</a></li>
-                <li><a href="favoritos.html">Favoritos</a></li>
-            </ul>
-        </nav>
-        <form action="./search-results.html" method="GET">
-            <label for="nombre peli/serie">Que serie o pelicula queres ver?</label> <br>
-            <input id="nombre peli/serie" type="text" name="user" value="" placeholder="Nombre de serie o pelicula">
-            <button> <i class="fa-solid fa-magnifying-glass"></i> </button>
-        </form>
-    </header>
-    <main>
-        <div class="playchill sectiond" >
+    <div>
+        <header class="navbar">
+            <a href="index.html"><img src="../img/logoo.png" alt="logoo" class="logo"></a>
+            <nav>
+                <ul class="subpag">
+                    <li><a class="navega" href="index.html">Inicio</a></li>
+                    <li><a href="peliculas.html">Peliculas</a></li>
+                    <li><a href="series.html">Series</a></li>
+                    <li><a href="generos.html">Generos</a></li>
+                    <li><a href="favoritos.html">Favoritos</a></li>
+                    <li><a href="search-results.html">Resultado de busqueda</a></li>
+                </ul>
+            </nav>
+            <form action="./search-results.html" method="GET">
+                <label for="nombre peli/serie">Que serie o pelicula queres ver?</label> <br>
+                <input id="nombre peli/serie" type="text" name="user" value="" placeholder="Nombre de serie o pelicula">
+                <button> <i class="fa-solid fa-magnifying-glass"></i> </button>
+            </form>
+        </header>
+        <main>
             <h1> Detalle del Genero</h1>
-    </main>
-    
-    <section class="playchill section1">
-        <div class="principal">
-                <h3>Mas popular de <strong id="inputUsuario"></strong></h3>
-                <div class="pelipeli" id="pel1"></div>
-        </div>
-    </section>
 
-    <footer>
-        <nav class="navfoot">
-            <ul class="footnom">
-                <li>Sophia de Leone</li>
-                <li>Catalina Fabani Lazzeri</li>
-                <li>Pilar Antúnez</li>
-                <li><a href="https://developer.themoviedb.org/docs" target="_blank"><img src="..//img/logo tmdb.png" alt="logo tmdb" class="imalogo"></a></li>
-            </ul>
-        </nav>
-    </footer>
-    <script type="text/javascript" src="../js/detail-genres.js"></script>
-</body>
-</html>
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    <div class="playchill sectiond" id="irinicio">
-        <h1> Detalle del Genero</h1>
-        <div class="gen">
-            <div id="irinicio">
-                <a href="#irpeli">Ir a peliculas de drama</a>
-                <a href="#irserie">Ir a series de drama</a>
-            </div>
-           
-        </div>
-        
+            <section>
+                <div class="principal">
+                    <h3>Mas popular de <strong id="inputUsuario"></strong></h3><!--etiqueta strong crea una caja en linea y se usa para macar con especial enfasis-->
+                        <div class="peliculas" id="intu"></div>
+                </div>
+            </section>
+        </main>
     </div>
-    <main>
-        <div id="irpeli">
-            <div class="playchill section1">
-                <div class="principal"><h2>Peliculas de drama</h2></div>
-                <section class="pp">
-                    <div>
-                        <div class="titu"><h3>12 Hombres en Pugna</h3></div>
-                        <a href="peliculas.html"><img class="ima" src="../img/Peliculas populares/_12 HOMBRES EN PUGNA (12 ANGRY MEN, 1957)__ p.jpg" alt="12 hombres en pugna"></a>
-                        <h4>Fecha de estreno: 10 de abril de 1957</h4>
-                    </div>
-                    
-                    <div>
-                        <div class="titu"><h3>La Lista de Schindler</h3></div>
-                        <a href="peliculas.html"><img class="ima" src="../img/Peliculas populares/A Lista de Schindler (1993) p.jpg" alt="La Lista de Schindler"></a>
-                    
-                        <h4>Fecha de estreno: 24 de febrero de 1994</h4>
-                    </div>
-                    
-                    <div>
-                        <div class="titu"><h3> El caballero de la noche</h3></div>
-                        <a href="peliculas.html"><img class="ima" src="../img/Peliculas populares/El caballero de la noche_ p.jpg" alt="El caballero de la noche"></a>
-                    
-                        <h4>Fecha de estreno: 17 de julio de 2008 </h4>
-                    </div>
-                    
-                    <div>
-                        <div class="titu"><h3>El Padrino</h3></div>
-                        <a href="peliculas.html"><img class="ima" src="../img/Peliculas populares/El Padrino p.jpg" alt="El Padrino"></a>
-                    
-                        <h4> Fecha de estreno: 20 de septiembre de 1972</h4>
-                    </div>
-                    
-                    <div>
-                        <div class="titu"><h3>Forest Gump</h3></div>
-                        <a href="peliculas.html"><img class="ima" src="../img/Peliculas populares/forest gump p.jpg" alt="Forest Gump"></a>
-                    
-                        <h4>Fecha de estreno: 6 de octubre de 1994</h4>
-                    </div>
-                    
-                    <div>
-                        <div class="titu"><h3>Pulp Fiction</h3></div>
-                        <a href="peliculas.html"><img class="ima" src="../img/Peliculas populares/pulp fiction p.jpg" alt="Pulp Fiction"></a>
-                    
-                        <h4>Fecha de estreno: 16 de febrero de 1995</h4>
-                    </div>
-                    
-                    <div>
-                        <div class="titu"><h3>El señor de los anillos</h3></div>
-                        <a href="peliculas.html"><img class="ima" src="../img/Peliculas populares/The Lord of the Rings 3 p.jpg" alt="El señor de los anillos"></a>
-                    
-                        <h4>Fecha de estreno: 29 de julio de 1954</h4>
-                    </div>
-                    
-                </section>
-            </div>
-        </div>
 
-        <div id="irserie">
-            <div class="playchill section2">
-                <div class="principal"><h2>Series de drama</h2></div>
-                <section class="pp">
-                    <div>
-                        <div class="titu"><h3>Peaky blinders</h3></div>
-                        <a href="series.html"><img class="ima" src="../img/Series populares/Peaky blinders s.jpg" alt="Peaky Blinders"></a>
-                        
-                        <h4>Fecha de estreno: 26 de abril de 2002</h4>
-                    </div>
-                    
-                    <div>
-                        <div class="titu"><h3>Bridgerton</h3></div>
-                        <a href="series.html"><img class="ima" src="../img/Series mas vistas/Wallpaper Bridgerton.jpg" alt="Bridgerton"></a>
-                        
-                        <h4>Fecha de estreno: 25 de diciembre de 2020</h4>
-                    </div>
-                    
-                    <div>
-                        <div class="titu"><h3>Breaking bad</h3></div>
-                        <a href="series.html"><img class="ima" src="../img/Series populares/Breaking Bad 9_16 s.jpg" alt="Breaking Bad"></a>
-                        
-                        <h4>Fecha de estreno: 20 de enero de 2008</h4>
-                    </div>
-                    
-                    <div>
-                        <div class="titu"><h3>Los Simpson</h3></div>
-                        <a href="series.html"><img class="ima" src="../img/Series populares/Los Simpson s.jpg" alt="Los Simpson"></a>
-                        
-                        <h4>fecha de estreno: 17 de diciembre de 1989</h4>
-                    </div>
-                    
-                    <div>
-                        <div class="titu"><h3>Lucifer</h3></div>
-                        <a href="series.html"><img class="ima" src="../img/Series mas vistas/lucifer.jpg" alt="lucifer"></a>
-                        
-                        <h4>Fecha de estreno: 25 de enero de 2016</h4>
-                    </div>
-                    
-                    <div>
-                        <div class="titu"><h3>Juego de tronos</h3></div>
-                        <a href="series.html"><img class="ima" src="../img/Series populares/juego de tronos s.jpg" alt="Juego de Tronos"></a>
-                        
-                        <h4>Fecha de estreno: 17 de abril de 2011</h4>
-                    </div>
-                    
-                    <div>
-                        <div class="titu"><h3>Wednesday</h3></div>
-                        <a href="series.html"><img class="ima" src="../img/Series mas vistas/Wednesday.jpg" alt="Wednesday"></a>
-                        
-                        <h4>Fecha de estreno: 23 de noviembre de 2022</h4>
-                    </div>
-                    
-                </section>
-            </div>
-            <div class="gen">
-                <a href="#irinicio">Volver al inicio</a>
-            </div>
-        </div>
-        
-
-       
-
-
-    </main>
     <footer>
         <nav class="navfoot">
             <ul class="footnom">
